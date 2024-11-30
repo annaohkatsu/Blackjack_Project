@@ -28,9 +28,9 @@ def compare(u_score, c_score):
     elif c_score > 21:
         return "***Computer got more than 21, you win***\n"
     elif u_score > c_score:
-        return "***You win***\n"
+        return "****You win****\n"
     else:
-        return "***You lose***\n"
+        return "****You lose***\n"
 
 
 restart = True
